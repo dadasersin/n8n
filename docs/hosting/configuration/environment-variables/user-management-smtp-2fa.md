@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: User management SMTP, and two-factor authentication environment variables
 description: Environment variables to set up user management and emails.
 contentType: reference
@@ -13,7 +14,7 @@ hide:
 
 --8<-- "_snippets/self-hosting/file-based-configuration.md"
 
-Refer to [User management](/hosting/configuration/user-management-self-hosted/) for more information on setting up user management and emails.
+Refer to [User management](/hosting/configuration/user-management-self-hosted.md) for more information on setting up user management and emails.
 <!-- vale off -->
 | Variable | Type | Default | Description |
 | :------- | :--- | :------ | :---------- |
@@ -26,6 +27,7 @@ Refer to [User management](/hosting/configuration/user-management-self-hosted/) 
 | `N8N_SMTP_OAUTH_PRIVATE_KEY` | String | - | If using 2LO with a service account this is your private key |
 | `N8N_SMTP_SENDER` | String | - | Sender email address. You can optionally include the sender name. Example with name: _N8N `<contact@n8n.com>`_ |
 | `N8N_SMTP_SSL` | Boolean | `true` | Whether to use SSL for SMTP (true) or not (false). |
+| `N8N_SMTP_STARTTLS` | Boolean | `true` | Whether to use STARTTLS for SMTP (true) or not (false). |
 | `N8N_UM_EMAIL_TEMPLATES_INVITE` | String | - | Full path to your HTML email template. This overrides the default template for invite emails. |
 | `N8N_UM_EMAIL_TEMPLATES_PWRESET` | String | - | Full path to your HTML email template. This overrides the default template for password reset emails. |
 | `N8N_UM_EMAIL_TEMPLATES_WORKFLOW_SHARED` | String | - | Overrides the default HTML template for notifying users that a workflow was shared. Provide the full path to the template. |

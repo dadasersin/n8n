@@ -1,21 +1,30 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: Get metrics for a health check
 contentType: howto
 ---
 
 # Monitoring
 
-There are two API endpoints you can call to check the status of your instance: `/healthz` and `/metrics`.
+There are three API endpoints you can call to check the status of your instance: `/healthz`, `healthz/readiness`, and `/metrics`.
 
 <!-- vale off -->
-## healthz
+## healthz and healthz/readiness
 <!-- vale on -->
-The `/healthz` endpoint returns a standard HTTP status code. 200 indicates the instance is reachable. It's available for both self-hosted and Cloud users.
+The `/healthz` endpoint returns a standard HTTP status code. 200 indicates the instance is reachable. It doesn't indicate DB status. It's available for both self-hosted and Cloud users.
 
 Access the endpoint:
 
 ```
 <your-instance-url>/healthz
+```
+
+The `/healthz/readiness` endpoint is similar to the `/healthz` endpoint, but it returns a HTTP status code of 200 if the DB is connected and migrated and therefore the instance is ready to accept traffic.
+
+Access the endpoint:
+
+```
+<your-instance-url>/healthz/readiness
 ```
 
 
@@ -44,4 +53,4 @@ N8N_METRICS=true
 QUEUE_HEALTH_CHECK_ACTIVE=true
 ```
 
-Refer to [Configuration methods](/hosting/configuration/configuration-methods/) for more information on how to configure your instance using environment variables.
+Refer to [Configuration methods](/hosting/configuration/configuration-methods.md) for more information on how to configure your instance using environment variables.

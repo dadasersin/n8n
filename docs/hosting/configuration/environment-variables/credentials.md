@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Credentials environment variables
 description: Manage default credentials and override them through environment variables your self-hosted n8n instance.
 contentType: reference
@@ -13,7 +14,7 @@ hide:
 
 --8<-- "_snippets/self-hosting/file-based-configuration.md"
 
-Enable credential overwrites using the following environment variables. Refer to [Credential overwrites](/embed/configuration/#credential-overwrites/) for details.
+Enable credential overwrites using the following environment variables. Refer to [Credential overwrites](/embed/configuration.md#credential-overwrites) for details.
 
 | Variable | Type  | Default  | Description |
 | :------- | :---- | :------- | :---------- |

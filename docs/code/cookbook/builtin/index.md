@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 contentType: overview
 ---
 
@@ -12,6 +13,6 @@ n8n provides built-in methods and variables for working with data and accessing 
 
 ## Related resources
 
-* [Built-in methods and variables reference](/code/builtin/overview/)
-* [Expressions](/code/expressions/)
-* [Code node](/code/code-node/)
+* [Built-in methods and variables reference](/code/builtin/overview.md)
+* [Expressions](/code/expressions.md)
+* [Code node](/code/code-node.md)

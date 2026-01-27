@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Okta Workforce Identity SAML setup
 description: Use Okta Workforce Identity with n8n.
 contentType: tutorial
@@ -17,7 +18,7 @@ You need an Okta Workforce Identity account, and the redirect URL and entity ID 
 
 Okta Workforce may enforce two factor authentication for users, depending on your Okta configuration.
 
-Read the [Set up SAML](/user-management/saml/setup/) guide first.
+Read the [Set up SAML](/user-management/saml/setup.md) guide first.
 
 ## Setup
 

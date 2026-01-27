@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Configure webhook URLs with reverse proxy
 description: Customize n8n webhook URLs for compatibility with reverse proxy setups.
 contentType: howto
@@ -11,4 +12,4 @@ n8n creates the webhook URL by combining `N8N_PROTOCOL`, `N8N_HOST` and `N8N_POR
 ```bash
 export WEBHOOK_URL=https://n8n.example.com/
 ```
-Refer to [Environment variables reference](/hosting/configuration/environment-variables/endpoints/) for more information on this variable.
+Refer to [Environment variables reference](/hosting/configuration/environment-variables/endpoints.md) for more information on this variable.

@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: User management best practices.
 contentType: explanation
 ---
@@ -25,5 +26,5 @@ If you run n8n behind a reverse proxy, set the following environment variables s
 * `N8N_PROTOCOL`
 * `N8N_EDITOR_BASE_URL`  
 
-More information on these variables is available in [Environment variables](/hosting/configuration/environment-variables/).
+More information on these variables is available in [Environment variables](/hosting/configuration/environment-variables/index.md).
 

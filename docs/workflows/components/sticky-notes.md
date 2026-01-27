@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: Annotate your workflows using sticky notes.
 contentType: howto
 ---
@@ -7,7 +8,7 @@ contentType: howto
 
 Sticky Notes allow you to annotate and comment on your workflows.
 
-n8n recommends using Sticky Notes heavily, especially on template workflows, to help other users understand your workflow.
+n8n recommends using Sticky Notes heavily, especially on [template workflows](/glossary.md#template-n8n), to help other users understand your workflow.
 
 ![Screenshot of a basic workflow with an example sticky note](/_images/workflows/components/stickies/example-sticky-note.png)
 

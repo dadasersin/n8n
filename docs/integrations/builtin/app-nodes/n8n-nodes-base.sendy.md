@@ -1,23 +1,21 @@
 ---
-title: Sendy
-description: Documentation for the Sendy node in n8n, a workflow automation platform. Includes details of operations and configuration, and links to examples and credentials information.
-contentType: integration
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
+title: Sendy node documentation
+description: Learn how to use the Sendy node in n8n. Follow technical documentation to integrate Sendy node into your workflows.
+contentType: [integration, reference]
 ---
 
-# Sendy
+# Sendy node
 
 Use the Sendy node to automate work in Sendy, and integrate Sendy with other applications. n8n has built-in support for a wide range of Sendy features, including creating campaigns, and adding, counting, deleting, and getting subscribers.
 
 On this page, you'll find a list of operations the Sendy node supports and links to more resources.
 
 /// note | Credentials
-Refer to [Sendy credentials](/integrations/builtin/credentials/sendy/) for guidance on setting up authentication. 
-///
-/// note | Examples and templates
-For usage examples and templates to help you get started, take a look at n8n's [Sendy integrations](https://n8n.io/integrations/sendy/){:target="_blank" .external-link} list.
+Refer to [Sendy credentials](/integrations/builtin/credentials/sendy.md) for guidance on setting up authentication. 
 ///
 
-## Basic Operations
+## Operations
 
 * Campaign
     * Create a campaign
@@ -28,3 +26,7 @@ For usage examples and templates to help you get started, take a look at n8n's [
     * Unsubscribe user from a list
     * Get the status of subscriber
 
+## Templates and examples
+
+<!-- see https://www.notion.so/n8n/Pull-in-templates-for-the-integrations-pages-37c716837b804d30a33b47475f6e3780 -->
+[[ templatesWidget(page.title, 'sendy') ]]

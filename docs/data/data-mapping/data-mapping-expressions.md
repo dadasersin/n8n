@@ -1,12 +1,13 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 contentType: howto
 ---
 
 # Mapping in the expressions editor
 
-These examples show how to access linked items in the expressions editor. Refer to [expressions](/code/expressions/) for more information on expressions, including built in variables and methods.
+These examples show how to access linked items in the expressions editor. Refer to [expressions](/code/expressions.md) for more information on expressions, including built in variables and methods.
 
-For information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors/).
+For information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md).
 
 ## Access the linked item in a previous node's output
 
@@ -87,7 +88,7 @@ As a longer example, consider a scenario where the current node has the followin
 ]
 ```
 
-To extract the name, you'd normally use drag-and-drop [Data mapping](/data/data-mapping/), but you could also write the following expression:
+To extract the name, you'd normally use drag-and-drop [Data mapping](/data/data-mapping/index.md), but you could also write the following expression:
 
 ```js
 {{$input.item.json.name}}

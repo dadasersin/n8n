@@ -1,25 +1,32 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Sendy credentials
 description: Documentation for Sendy credentials. Use these credentials to authenticate Sendy in n8n, a workflow automation platform.
-contentType: integration
+contentType: [integration, reference]
 ---
 
 # Sendy credentials
 
-You can use these credentials to authenticate the following nodes with Sendy.
+You can use these credentials to authenticate the following nodes:
 
-- [Sendy](/integrations/builtin/app-nodes/n8n-nodes-base.sendy/)
+- [Sendy](/integrations/builtin/app-nodes/n8n-nodes-base.sendy.md)
 
 ## Prerequisites
 
-Host a [Sendy](https://sendy.co/get-started) application.
+Host a [Sendy](https://sendy.co/get-started){:target=_blank .external-link} application.
+
+## Supported authentication methods
+
+- API key
+
+## Related resources
+
+Refer to [Sendy's API documentation](https://sendy.co/api){:target=_blank .external-link} for more information about the service.
 
 ## Using API Key
 
-1. Access your Sendy application.
-2. Click on the username on the top right corner and select 'Settings'.
-3. Copy the API key displayed under the ***Your API key*** section.
-4. Use this API key and the installation URL with your Sendy node credentials in n8n.
+To configure this credential, you'll need:
 
-![Getting Sendy credentials](/_images/integrations/builtin/credentials/sendy/using-api.gif)
+- A **URL**: The URL of your Sendy application.
+- An **API Key**: Get your API key from your user profile > **Settings > Your API Key**.
 

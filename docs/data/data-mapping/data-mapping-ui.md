@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 contentType: howto
 ---
 
@@ -11,7 +12,7 @@ You can map data in the following ways:
 * Using the expressions editor.
 * By dragging and dropping data from the **INPUT** into parameters. This generates the expression for you.
 
-For information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors/).
+For information on errors with mapping and linking items, refer to [Item linking errors](/data/data-mapping/data-item-linking/item-linking-errors.md).
 
 ## How to drag and drop data
 

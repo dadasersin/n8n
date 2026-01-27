@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: An execution is a single run of a workflow.
 contentType: overview
 ---
@@ -19,7 +20,7 @@ There are two execution modes:
 
 n8n provides two execution lists:
 
-* [Workflow-level executions](/workflows/executions/single-workflow-executions/): this execution list shows the executions for a single workflow.
-* [All executions](/workflows/executions/all-executions/): this list shows all executions for all your workflows.
+* [Workflow-level executions](/workflows/executions/single-workflow-executions.md): this execution list shows the executions for a single workflow.
+* [All executions](/workflows/executions/all-executions.md): this list shows all executions for all your workflows.
 
-n8n supports [adding custom data to executions](/workflows/executions/custom-executions-data/).
+n8n supports [adding custom data to executions](/workflows/executions/custom-executions-data.md).

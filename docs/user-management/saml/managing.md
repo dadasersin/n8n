@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Manage users with SAML
 description: How to manage users and user logins with SAML enabled.
 contentType: howto
@@ -18,4 +19,4 @@ You can allow users to log in without using SAML. To do this:
 
 ## Deleting users
 
-If you remove a user from your IdP, they remain logged in to n8n. You need to manually remove them from n8n as well. Refer to [Manage users](/user-management/manage-users/) for guidance on deleting users.
+If you remove a user from your IdP, they remain logged in to n8n. You need to manually remove them from n8n as well. Refer to [Manage users](/user-management/manage-users.md) for guidance on deleting users.

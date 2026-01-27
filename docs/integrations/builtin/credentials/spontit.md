@@ -1,31 +1,32 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Spontit credentials
 description: Documentation for Spontit credentials. Use these credentials to authenticate Spontit in n8n, a workflow automation platform.
-contentType: integration
+contentType: [integration, reference]
 ---
 
 # Spontit credentials
 
-You can use these credentials to authenticate the following nodes with Spontit.
+You can use these credentials to authenticate the following nodes:
 
-- [Spontit](/integrations/builtin/app-nodes/n8n-nodes-base.spontit/)
+- [Spontit](/integrations/builtin/app-nodes/n8n-nodes-base.spontit.md)
 
 ## Prerequisites
 
-Create a [Spontit](https://www.spontit.com/) account.
+Create a [Spontit](https://www.spontit.com/){:target=_blank .external-link} account.
 
-## Using API Key
+## Supported authentication methods
 
-1. Access the [Spontit dashboard](https://www.spontit.com/).
-2. On the navigation menu, click on ***API***, and select 'Get Secret Keys' from the dropdown list.
-3. Click on ***+ Create New Key*** to generate a new API Key.
-4. Click on the ***PROFILE*** tab on the navigation menu.
-5. Copy the displayed username.
-6. Use this ***API Key*** and ***Username*** with your Spontit credentials in n8n.
+- API key
 
-![Getting Spontit credentials](/_images/integrations/builtin/credentials/spontit/using-api-key.gif)
+## Related resources
 
-## Further Reference
+Refer to [Spontit's API documentation](https://api.spontit.com/){:target=_blank .external-link} for more information about the service.
 
-- [Spontit API Documentation](https://api.spontit.com/)
+## Using API key
+
+To configure this credential, you'll need:
+
+- An **API Key**: Go to **API** to get a new secret key. Enter that key as your **API Key**.
+- A **Username**: Enter your Spontit username. If you're unsure how to format it, open your **Profile** and copy the username from there.
 

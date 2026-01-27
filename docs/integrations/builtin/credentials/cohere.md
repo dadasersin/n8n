@@ -1,14 +1,17 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Cohere credentials
 description: Documentation for the Cohere credentials. Use these credentials to authenticate Cohere in n8n, a workflow automation platform.
+contentType: [integration, reference]
 ---
 
 # Cohere credentials
 
 You can use these credentials to authenticate the following nodes:
 
-* [Cohere](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmcohere/)
-* [Embeddings Cohere](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingscohere/)
+* [Cohere](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmcohere.md)
+* [Reranker Cohere](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.rerankercohere.md)
+* [Embeddings Cohere](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingscohere.md)
 
 ## Prerequisites
 

@@ -1,11 +1,12 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: Use workflow templates
 contentType: howto
 ---
 
 # Workflow templates
 
-When creating a new workflow, you can choose whether to start with an empty workflow, or use an existing template.
+When creating a new workflow, you can choose whether to start with an empty workflow, or use an existing [template](/glossary.md#template-n8n).
 
 Templates provide:
 

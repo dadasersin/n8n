@@ -1,13 +1,11 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: AI coding
 description: Use GPT to generate code in the Code node.
 contentType: explanation
 ---
 
 # AI coding with GPT
-
-/// info | Experimental feature with limited availability
-As an experimental feature, n8n is gradually rolling this out on Cloud from version 1.3.0. If you don't see the feature when you first upgrade to 1.3.0, please be patient: it's coming soon.  
 
 Not available on self-hosted.  
 
@@ -49,7 +47,7 @@ And some n8n-specific guidance:
 
 * Think about the input data: make sure ChatGPT knows which pieces of the data you want to access, and what the incoming data represents. You may need to tell ChatGPT about the availability of n8n's built-in methods and variables.
 * Declare interactions between nodes: if your logic involves data from multiple nodes, specify how they should interact. "Merge the output of 'Node A' with 'Node B' based on the 'userID' property". if you prefer data to come from certain nodes or to ignore others, be clear: "Only consider data from the 'Purchases' node and ignore the 'Refunds' node."
-* Ensure the output is compatible with n8n. Refer to [Data structure](/data/data-structure/) for more information on the data structure n8n requires.
+* Ensure the output is compatible with n8n. Refer to [Data structure](/data/data-structure.md) for more information on the data structure n8n requires.
 
 ### Example prompts
 
@@ -192,4 +190,4 @@ Pluralsight offer a short guide on [How to use ChatGPT to write code](https://ww
 
 ## Fixing the code
 
-The AI-generated code may work without any changes, but you may have to edit it. You need to be aware of n8n's [Data structure](/data/data-structure/). You may also find n8n's built-in methods and variables useful.
+The AI-generated code may work without any changes, but you may have to edit it. You need to be aware of n8n's [Data structure](/data/data-structure.md). You may also find n8n's built-in methods and variables useful.

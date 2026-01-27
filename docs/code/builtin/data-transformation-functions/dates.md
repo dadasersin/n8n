@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Data transformation functions for dates
 description: A reference document listing built-in convenience functions to support data transformation in expressions for dates.
 contentType: reference
@@ -6,10 +7,10 @@ contentType: reference
 
 # Dates
 
-A reference document listing built-in convenience functions to support data transformation in expressions for dates.
+A reference document listing built-in convenience functions to support data transformation in [expressions](/glossary.md#expression-n8n) for dates.
 
 /// note | JavaScript in expressions
-You can use any JavaScript in expressions. Refer to [Expressions](/code/expressions/) for more information.
+You can use any JavaScript in expressions. Refer to [Expressions](/code/expressions.md) for more information.
 ///
 [[% import "_macros/data-functions.html" as dataFunctions %]]
 

@@ -1,10 +1,11 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 contentType: howto
 ---
 
 # Using community nodes
 
-To use community nodes, you first need to [install](/integrations/community-nodes/installation/) them.
+To use community nodes, you first need to [install](/integrations/community-nodes/installation/index.md) them.
 
 ## Adding community nodes to your workflow
 

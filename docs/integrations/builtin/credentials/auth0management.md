@@ -1,11 +1,14 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Auth0 Management credentials
 description: Documentation for the Auth0 Management credentials. Use these credentials to authenticate Auth0 Management in n8n, a workflow automation platform.
+contentType: [integration, reference]
+priority: medium
 ---
 
 # Auth0 Management credentials
 
-You can use these credentials to authenticate when using the [HTTP Request node](/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/) to make a [Custom API call](/integrations/custom-operations/).
+--8<-- "_snippets/integrations/builtin/credentials/cred-only-statement.md"
 
 ## Prerequisites
 
@@ -19,7 +22,7 @@ Create an [Auth0](https://auth0.com){:target=_blank .external-link} account.
 
 Refer to [Auth0 Management's documentation](https://auth0.com/docs/api/management/v2){:target=_blank .external-link} for more information about the service.
 
-This is a credential-only node. Refer to [Custom API operations](/integrations/custom-operations/) to learn more. View [example workflows and related content](https://n8n.io/integrations/auth0-management-api/){:target=_blank .external-link} on n8n's website.
+This is a credential-only node. Refer to [Custom API operations](/integrations/custom-operations.md) to learn more. View [example workflows and related content](https://n8n.io/integrations/auth0-management-api/){:target=_blank .external-link} on n8n's website.
 
 ## Using API client secret
 

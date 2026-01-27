@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Isolate n8n
 description: Prevent your n8n instance from connecting with n8n's servers. 
 contentType: howto
@@ -24,4 +25,4 @@ N8N_DIAGNOSTICS_CONFIG_FRONTEND=
 N8N_DIAGNOSTICS_CONFIG_BACKEND=
 ```
 
-Refer to [Environment variables reference](/hosting/configuration/environment-variables/deployment/) for more information on these variables.
+Refer to [Environment variables reference](/hosting/configuration/environment-variables/deployment.md) for more information on these variables.

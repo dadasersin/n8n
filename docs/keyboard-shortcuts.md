@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 tags:
   - Keyboard
   - Move canvas
@@ -14,7 +15,7 @@ contentType: reference
 
 n8n provides keyboard shortcuts for some actions.
 
-## General
+## Workflow controls
  
  - **Ctrl** + **Alt** + **n**: create new workflow
  - **Ctrl** + **o**: open workflow
@@ -43,6 +44,8 @@ n8n provides keyboard shortcuts for some actions.
 
 ### Nodes on the canvas
 
+- **Double click** on a node: open the node details
+- **Ctrl/Cmd** + **Double click** on a sub-workflow node: open the sub-workflow in a new tab
 - **Ctrl** + **a**: select all nodes
 - **Ctrl** + **v**: paste nodes
 - **Shift** + **s**: add sticky note
@@ -59,9 +62,10 @@ n8n provides keyboard shortcuts for some actions.
  - **Delete**: delete
  - **Enter**: open
  - **F2**: rename
- - **P**: pin data in node. Refer to [Data pinning](/data/data-pinning/) for more information.
+ - **P**: pin data in node. Refer to [Data pinning](/data/data-pinning.md) for more information.
  - **Shift** + **ArrowLeft**: select all nodes left of the current one
  - **Shift** + **ArrowRight**: select all nodes right of the current one
+ - **Ctrl/Cmd** + **Shift** + **o** on a sub-workflow node: open the sub-workflow in a new tab 
 
 ## Node panel
 
@@ -77,4 +81,4 @@ n8n provides keyboard shortcuts for some actions.
 
 ## Within nodes
 
-- **=**: in an empty parameter input, this switches to expressions mode.
+- **=**: in an empty parameter input, this switches to [expressions](/glossary.md#expression-n8n) mode.

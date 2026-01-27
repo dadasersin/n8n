@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: n8n provides these methods to make it easier to perform common tasks in expressions.
 contentType: reference
 hide:
@@ -7,7 +8,7 @@ hide:
 
 # Convenience methods
 
-n8n provides these methods to make it easier to perform common tasks in expressions.
+n8n provides these methods to make it easier to perform common tasks in [expressions](/glossary.md#expression-n8n).
 
 /// note | Python support
 You can use Python in the Code node. It isn't available in expressions.

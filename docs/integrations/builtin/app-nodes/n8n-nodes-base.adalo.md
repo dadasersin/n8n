@@ -1,21 +1,21 @@
 ---
-title: Adalo
-description: Documentation for the Adalo node in n8n, a workflow automation platform. Includes details of operations and configuration, and links to examples and credentials information.
-contentType: integration
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
+title: Adalo node documentation
+description: Learn how to use the Adalo node in n8n. Follow technical documentation to integrate Adalo node into your workflows.
+contentType: [integration, reference]
+priority: medium
 ---
 
-# Adalo
+# Adalo node
 
 Use the Adalo node to automate work in Adalo, and integrate Adalo with other applications. n8n has built-in support for a wide range of Adalo features, including like creating, getting, updating and deleting databases, records, and collections.
 
 On this page, you'll find a list of operations the Adalo node supports and links to more resources.
 
 /// note | Credentials
-Refer to [Adalo credentials](/integrations/builtin/credentials/adalo/) for guidance on setting up authentication. 
+Refer to [Adalo credentials](/integrations/builtin/credentials/adalo.md) for guidance on setting up authentication. 
 ///	
-/// note | Examples and templates
-For usage examples and templates to help you get started, take a look at n8n's [Adalo integrations list](https://n8n.io/integrations/adalo/){:target=_blank .external-link}.
-///
+
 ## Operations
 
 * Collection
@@ -24,6 +24,11 @@ For usage examples and templates to help you get started, take a look at n8n's [
 	* Get
 	* Get Many
 	* Update
+
+## Templates and examples
+
+<!-- see https://www.notion.so/n8n/Pull-in-templates-for-the-integrations-pages-37c716837b804d30a33b47475f6e3780 -->
+[[ templatesWidget(page.title, 'adalo') ]]
 
 ## Related resources
 

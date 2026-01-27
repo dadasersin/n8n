@@ -1,4 +1,5 @@
 ---
+#https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: Specify location for your custom nodes
 description: Add folders and specify paths for your custom nodes. 
 contentType: howto
@@ -14,4 +15,4 @@ You can define more folders with an environment variable:
 ```bash
 export N8N_CUSTOM_EXTENSIONS="/home/jim/n8n/custom-nodes;/data/n8n/nodes"
 ```
-Refer to [Environment variables reference](/hosting/configuration/environment-variables/nodes/) for more information on this variable.
+Refer to [Environment variables reference](/hosting/configuration/environment-variables/nodes.md) for more information on this variable.
