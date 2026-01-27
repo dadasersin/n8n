@@ -1,0 +1,4 @@
+FROM n8nio/n8n:1.19.4
+EXPOSE 8080
+ENTRYPOINT ["/usr/local/bin/n8n"]
+CMD ["start"]
