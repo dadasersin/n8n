@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    # Her 10 dakikada bir ping
+    headers:
+      - path: /healthz
+        name: Cache-Control
+        value: no-cache
